@@ -19,32 +19,32 @@ export default function Navbar() {
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active " aria-current="page" href="index.html">HOME</a>
+                        <a class="nav-link active " aria-current="page" href="./">HOME</a>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link alter" href="agencia/promo.html">PROMOÇÕES</a>
+                        <a class="nav-link alter" href="./Promo">PROMOÇÕES</a>
                     </li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle active" href="agencia/nacio.html" id="navbarDropdown"
+                        <a class="nav-link dropdown-toggle active" href="./Nacionais" id="navbarDropdown"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Nacionais
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="agencia/nacio.html">Mais Procurados</a></li>
-                            <li><a class="dropdown-item" href="agencia/nacio.html">Apaixonados por Calor</a></li>
-                            <li><a class="dropdown-item" href="agencia/nacio.html">Amantes do frio</a></li>
+                            <li><a class="dropdown-item" href="./Nacionais">Mais Procurados</a></li>
+                            <li><a class="dropdown-item" href="./Nacionais">Apaixonados por Calor</a></li>
+                            <li><a class="dropdown-item" href="./Nacionais">Amantes do frio</a></li>
 
                         </ul>
                     </li>
                     <li class="nav-item dropdown ">
-                        <a class="nav-link dropdown-toggle active" href="agencia/inter.html" id="navbarDropdown2"
+                        <a class="nav-link dropdown-toggle active" href="./Internacionais" id="navbarDropdown2"
                             role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Internacionais
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="agencia/inter.html">Mais Procurados</a></li>
-                            <li><a class="dropdown-item" href="agencia/inter.html">Apaixonados por Calor</a></li>
-                            <li><a class="dropdown-item" href="agencia/inter.html">Amantes do frio</a></li>
+                            <li><a class="dropdown-item" href="./Internacionais">Mais Procurados</a></li>
+                            <li><a class="dropdown-item" href="./Internacionais">Apaixonados por Calor</a></li>
+                            <li><a class="dropdown-item" href="./Internacionais">Amantes do frio</a></li>
                         </ul>
                     </li>
                     <li class="nav-item dropdown ">

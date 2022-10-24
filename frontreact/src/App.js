@@ -1,10 +1,11 @@
 import React from "react";
-import Index from "./components/views";
+import AppRoutes from "./AppRouts";
+
 
 function App() {
   return (
     <>
-    <Index/>
+    <AppRoutes/>
     </>
   );
 }
