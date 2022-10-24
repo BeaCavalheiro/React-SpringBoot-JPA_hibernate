@@ -1,0 +1,22 @@
+footer {
+    padding-top: 20px;
+    margin-top: 20px;
+    background-color: #034c8c1d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#foot>img {
+    height: 200px;
+}
+.foot{
+    list-style: none;
+    padding-left: 10px;
+}
+table {
+    width: 30%;
+}
+
+.camp {
+    text-align: left;
+}

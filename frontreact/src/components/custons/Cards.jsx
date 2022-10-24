@@ -1,11 +1,11 @@
 import React from 'react';
-import Modal from "./Modal";
 
 export default function Cards(props) {
+ 
   return (
     <li>
-      <div class="card" style="width: 18rem;">
-        <img src="imagens/nacio-cam-jor.jpg" class="card-img-top" alt="..." />
+      <div class="card" style={{width: '18rem'}}>
+        <img src={props.img} class="card-img-top" alt="..." />
         <div class="card-body">
           <p class="card-text">
             <div class="accordion accordion-flush" id="accordionFlushExample001">
@@ -20,7 +20,7 @@ export default function Cards(props) {
                 <div id="flush-collapseOne001" class="accordion-collapse collapse"
                   aria-labelledby="flush-headingOne001"
                   data-bs-parent="#accordionFlushExample001">
-                  <div class="accordion-body">{props.descricap}</div>
+                  <div class="accordion-body">{props.descricao}</div>
                 </div>
               </div>
               <div class="accordion-item">
@@ -53,8 +53,8 @@ export default function Cards(props) {
                 </div>
               </div>
             </div>
-            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onClick={conected?<Modal></Modal>:./login}> Comprar</button>
-           
+            <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop"> Comprar</button>
+          
           </p>
         </div>
       </div>

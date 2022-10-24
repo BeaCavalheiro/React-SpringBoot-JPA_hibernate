@@ -6,7 +6,7 @@ import formatura from "../IMG/for1000.jpg";
 import nacional from "../IMG/nac1000.jpg";
 import internacional from "../IMG/inter1000.jpg";
 import religioso from "../IMG/rel1000.jpg";
-
+import'./cabecalho.css'
 export default function Header() {
   return (
     <div class="container">

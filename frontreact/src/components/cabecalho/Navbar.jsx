@@ -1,5 +1,6 @@
 import React from 'react'
 import icon from '../IMG/icone-trans.png';
+import './cabecalho.css'
 
 export default function Navbar() {
   return (

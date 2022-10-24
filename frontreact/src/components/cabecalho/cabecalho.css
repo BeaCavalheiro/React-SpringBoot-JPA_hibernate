@@ -1,0 +1,55 @@
+header {
+    display: inline;
+    align-items: center;
+
+
+}
+
+.flex {
+    display: flex;
+}
+
+.bg {
+    background-color: rgba(94, 94, 94, 0.548);
+}
+
+.container {
+    position: relative;
+}
+
+.logo {
+    width: 100%;
+    position: absolute;
+    z-index: 10;
+}
+
+.logo>img {
+    margin-top:0%;
+    
+    width: 20%;
+}
+.navbar {
+    flex-wrap: wrap;
+    display: flex !important;
+    justify-content: space-around !important;
+}
+ul>li {
+
+    margin-left: 50px;
+}
+.dropdown-item {
+    color: #034c8c;
+}
+.alter{
+    color: #f28705;
+}
+li>p::first-letter {
+
+    color: #f28705;
+
+}
+
+a:hover{
+    color: #f28705
+
+}

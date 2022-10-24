@@ -1,11 +1,13 @@
 import React from 'react'
+import imagens from '../IMG/logo-trans.png'
+import'./footer.css'
 
 export default function Footer() {
   return (
     <div class="fluid ">
 
         <footer>
-            <div id="foot" class="col-12 col-sm-6 col-lg-3"><img src="imagens/logo-trans.png" alt="" /></div>
+            <div id="foot" class="col-12 col-sm-6 col-lg-3"><img src={imagens} alt="" /></div>
             <div class="col-12 col-sm-6 col-lg-3 ">
                 <ul>
                     <p><strong>Parceiros:</strong></p>
