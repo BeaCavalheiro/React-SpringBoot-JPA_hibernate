@@ -1,19 +1,19 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './context/auth';
-import Index from './components/views/index';
-import Promo from './components/views/promo';
-import Nac from './components/views/nacio';
-import Inter from './components/views/inter';
-import Cad from './components/views/cadastro';
-import FC from './components/views/FC';
-import HT from './components/views/HT';
-import Login from './components/views/log';
+// import { AuthProvider } from './context/auth';
+import Index from './views/index';
+import Promo from './views/promo';
+import Nac from './views/nacio';
+import Inter from './views/inter';
+import Cad from './views/cadastro';
+import FC from './views/FC';
+import HT from './views/HT';
+import Login from './views/log';
+import ADM from './views/Adm'
 
 const AppRoutes = () => {
       return (
       <Router>
-        <AuthProvider >
-          <Routes>
+         <Routes>
             <Route path='/' element={<Index/>} />
             <Route path='/Promo' element={<Promo />} />
             <Route path='/Nacionais' element={<Nac />} />
@@ -24,7 +24,7 @@ const AppRoutes = () => {
             <Route path='/Login' element={<Login />} />
             <Route path='/ADM' element={<ADM />} />
           </Routes>
-        </AuthProvider>
+       
       </Router>
     )
   }

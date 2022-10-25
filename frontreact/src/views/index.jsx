@@ -1,8 +1,8 @@
 import React from "react";
-import Cards from "../custons/Cards";
-import Navbar from "../cabecalho/Navbar";
-import Header from "../cabecalho/Header"
-import '../CSS/index.css'
+import Cards from "../components/custons/Cards";
+import Navbar from "../components/cabecalho/Navbar";
+import Header from "../components/cabecalho/Header"
+import '../components/CSS/index.css'
 
 
 export default function Index() {
@@ -18,13 +18,13 @@ export default function Index() {
                         <h3> HOME</h3>
                         <hr />
                         <li>
-                            <p><a href="agencia/cadastro.html"> Cadastre-se</a> </p>
+                            <p><a href="./Cadastro"> Cadastre-se</a> </p>
                         </li>
                         <li>
-                            <p><a href="agencia/log.html">Login</a> </p>
+                            <p><a href="./Login">Login</a> </p>
                         </li>
                         <li>
-                            <p><a href="agencia/promo.html"><strong>PROMOÇÕES</strong></a> </p>
+                            <p><a href="./Promo"><strong>PROMOÇÕES</strong></a> </p>
                         </li>
                         <li>
                             <p><a href="https://www.google.com/flights?hl=pt-BR">Passagens</a> </p>

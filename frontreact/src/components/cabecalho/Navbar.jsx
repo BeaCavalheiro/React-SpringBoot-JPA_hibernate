@@ -59,10 +59,13 @@ export default function Navbar() {
                         </ul>
                     </li>
                     <li class="nav-item ">
-                        <a class="nav-link active" aria-current="page" href="agencia/FC.html">Fale Conosco</a>
+                        <a class="nav-link active" aria-current="page" href="./FaleConosco">Fale Conosco</a>
                     </li>
                     <li class="nav-item  ">
-                        <a class="nav-link active" aria-current="page" href="agencia/HT.html">Trabalhe Conosco</a>
+                        <a class="nav-link active" aria-current="page" href="./HT">Trabalhe Conosco</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link active" aria-current="page" href="./ADM">Administrativo</a>
                     </li>
                 </ul>
             </div>
